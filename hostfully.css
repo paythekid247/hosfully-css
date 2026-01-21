@@ -1,0 +1,12 @@
+/* HOSTFULLY RESET TEST */
+body {
+  background: #0f172a !important;
+}
+
+h1, h2, h3 {
+  color: #facc15 !important;
+}
+
+button {
+  border-radius: 9999px !important;
+}

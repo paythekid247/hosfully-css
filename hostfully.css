@@ -1,12 +1,37 @@
-/* HOSTFULLY RESET TEST */
+/* Hostfully - reset to readable (keep it obvious, not ugly) */
+
+/* Page background */
 body {
+  background: #f8fafc !important; /* light */
+  color: #0f172a !important;      /* dark text */
+}
+
+/* Common text elements */
+p, li, span, label, small, div {
+  color: #0f172a !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: #0f172a !important;
+}
+
+/* Links */
+a {
+  color: #0ea5e9 !important;
+}
+
+/* Buttons (keep Hostfully buttons readable) */
+button, .btn, [type="button"], [type="submit"] {
   background: #0f172a !important;
-}
-
-h1, h2, h3 {
-  color: #facc15 !important;
-}
-
-button {
+  color: #ffffff !important;
   border-radius: 9999px !important;
+}
+
+/* Inputs */
+input, select, textarea {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  border: 1px solid rgba(15, 23, 42, 0.2) !important;
+  border-radius: 12px !important;
 }

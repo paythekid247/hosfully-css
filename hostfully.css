@@ -1,3 +1,9 @@
 /* === PROOF CSS LOADED (can't miss) === */
+/* SAFETY: do not globally change page background while we stabilize */
+html, body {
+  background: transparent !important;
+}
+
+
 html { outline: 12px solid lime !important; }
 body { outline: 12px dashed magenta !important; }

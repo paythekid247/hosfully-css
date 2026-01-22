@@ -1,4 +1,3 @@
-/* VISUAL PROOF */
-body {
-  outline: 12px solid lime !important;
-}
+/* === PROOF CSS LOADED (can't miss) === */
+html { outline: 12px solid lime !important; }
+body { outline: 12px dashed magenta !important; }

@@ -1,18 +1,40 @@
-/* === PROOF CSS LOADED (can't miss) === */
-/* SAFETY: do not globally change page background while we stabilize */
-html, body {
-  background: transparent !important;
-}
-/* HERO PRESERVER: avoid accidental collapse/overlay wipe */
-header, section, main, .hero, [class*="hero"], [id*="hero"] {
-  background-color: transparent !important;
-}
+/* HOSTFULLY: MINIMAL SAFE STYLES (won't touch hero/background/layout) */
 
-img, video {
-  opacity: 1 !important;
-  visibility: visible !important;
+/* Buttons */
+button,
+[type="button"],
+[type="submit"],
+a.btn,
+a.button,
+.btn {
+  border-radius: 9999px !important;
+  font-weight: 650 !important;
 }
 
+button,
+[type="submit"] {
+  background: #0f172a !important;
+  color: #ffffff !important;
+  border: none !important;
+}
 
-html { outline: 12px solid lime !important; }
-body { outline: 12px dashed magenta !important; }
+button:hover,
+[type="submit"]:hover {
+  filter: brightness(1.08);
+}
+
+/* Inputs */
+input, select, textarea {
+  border-radius: 12px !important;
+  border: 1px solid rgba(15, 23, 42, 0.20) !important;
+  padding: 10px 12px !important;
+}
+
+/* Cards (gentle) */
+[class*="card"],
+[class*="Card"],
+[class*="listing"],
+[class*="Listing"] {
+  border-radius: 18px !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06) !important;
+}

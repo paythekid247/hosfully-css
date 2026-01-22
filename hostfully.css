@@ -1,34 +1,26 @@
-/* Hostfully - reset to readable (keep it obvious, not ugly) */
+/* Hostfully - readable reset */
 
-/* Page background */
-body {
-  background: #f8fafc !important; /* light */
-  color: #0f172a !important;      /* dark text */
+html, body {
+  background: #f8fafc !important;
+  color: #0f172a !important;
 }
 
-/* Common text elements */
 p, li, span, label, small, div {
   color: #0f172a !important;
 }
 
-/* Headings */
 h1, h2, h3, h4, h5 {
   color: #0f172a !important;
 }
 
-/* Links */
-a {
-  color: #0ea5e9 !important;
-}
+a { color: #0ea5e9 !important; }
 
-/* Buttons (keep Hostfully buttons readable) */
 button, .btn, [type="button"], [type="submit"] {
   background: #0f172a !important;
   color: #ffffff !important;
   border-radius: 9999px !important;
 }
 
-/* Inputs */
 input, select, textarea {
   background: #ffffff !important;
   color: #0f172a !important;
